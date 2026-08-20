@@ -1,0 +1,6 @@
+# Netlify publishes the static app/ folder as-is.
+# Data is refreshed by the GitHub Action (which commits app/data.json);
+# each commit triggers a Netlify redeploy automatically. No build step needed.
+[build]
+  publish = "app"
+  command = ""
